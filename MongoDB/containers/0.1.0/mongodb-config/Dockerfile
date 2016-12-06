@@ -1,4 +1,4 @@
-FROM alpine:3.1
+FROM bashell/alpine-bash
 MAINTAINER Hussein Galal
 
 ADD ./*.sh /opt/rancher/bin/
